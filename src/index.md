@@ -6,7 +6,7 @@ layout: home
 
 > Bridgetown Environment: **{{ bridgetown.environment }}**
 
-This is what is being rendered in the head of the document:
+This is what is being rendered in the head of this document:
 
 ```html
 {% plausible %}
