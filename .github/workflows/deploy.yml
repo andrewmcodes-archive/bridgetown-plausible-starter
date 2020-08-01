@@ -13,4 +13,5 @@ jobs:
       - name: Build & Deploy to GitHub Pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          ruby_version: "2.7.0"
         uses: andrewmcodes/bridgetown-gh-pages-action@debug
