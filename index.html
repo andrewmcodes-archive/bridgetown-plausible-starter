@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+<title>Bridgetown Plausible Starter</title>
+
+<meta name="description" content="This is a sample website created with BridgetownRB that has Plausible analytics integration"/>
+
+<link rel="stylesheet" href="//bridgetown-plausible-starter/_bridgetown/static/css/all.0e4338761429b4eb16ac.css"/>
+<script src="//bridgetown-plausible-starter/_bridgetown/static/js/all.2c33afdfbbf1e1f92903.js" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" rel="stylesheet">
+<!-- <script async defer data-domain="bridgetown-plausible-starter.demo" src="https://plausible.io/js/plausible.js"></script> -->
+
+  </head>
+  <body class="home ">
+    <header>
+      <h1>Bridgetown Plausible Starter</h1>
+      <nav>
+  <a href="/">Home</a>
+  /
+  <a href="/about">About</a>
+  /
+  <a href="/posts">Posts</a>
+  /
+  <a href="https://plausible.io" target="_blank">Plausible</a>
+</nav>
+
+    </header>
+
+    <main>
+      <h1>Home Page</h1>
+
+<blockquote>
+  <p>Bridgetown Environment: <strong>development</strong></p>
+</blockquote>
+
+<p>This is what is being rendered in the head of the document:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- &lt;script async defer data-domain="bridgetown-plausible-starter.demo" src="https://plausible.io/js/plausible.js"&gt;&lt;/script&gt; --&gt;</span>
+</code></pre></div></div>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><a href="https://plausible.io">Plausible</a> is a lightweight and open-source website analytics tool. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. This plugin is meant to remove all friction from adding your <a href="https://docs.plausible.io/plausible-script">Plausible Analytics tracking script code</a> to your Bridgetown site.</p>
+
+<p>The alternative to using this plugin is just pasting your Plausible tracking script code directly into the head of your document:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+  <span class="c">&lt;!-- ... --&gt;</span>
+  <span class="nt">&lt;script
+    </span><span class="na">async</span>
+    <span class="na">defer</span>
+    <span class="na">data-domain=</span><span class="s">"yourdomain.com"</span>
+    <span class="na">src=</span><span class="s">"https://plausible.io/js/plausible.js"</span>
+  <span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="c">&lt;!-- ... --&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/andrewmcodes/bridgetown-plausible-tag">But if you use this plugin</a>, all you need to do is define your <a href="https://docs.plausible.io/add-website">Plausible domain</a> in your Bridgetown config file and paste this into your document head:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+  <span class="c">&lt;!-- ... --&gt;</span>
+  {% plausible %}
+  <span class="c">&lt;!-- ... --&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+</code></pre></div></div>
+
+
+
+    </main>
+
+    <footer>
+  <hr>
+  View on
+  <a href="https://github.com/andrewmcodes/bridgetown-plausible-starter" target="_blank">GitHub.</a>
+</footer>
+
+  </body>
+</html>
