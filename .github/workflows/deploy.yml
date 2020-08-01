@@ -13,4 +13,4 @@ jobs:
       - name: Build & Deploy to GitHub Pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        uses: andrewmcodes/bridgetown-gh-pages-action@main
+        uses: andrewmcodes/bridgetown-gh-pages-action@debug
