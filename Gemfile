@@ -19,5 +19,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem "bridgetown", "~> 0.16.0"
 
 group :bridgetown_plugins do
-  gem "bridgetown-plausible-tag", github: "andrewmcodes/bridgetown-plausible-tag", branch: "main"
+  # gem "bridgetown-plausible-tag", github: "andrewmcodes/bridgetown-plausible-tag", branch: "main"
+  gem "bridgetown-plausible-tag"
 end
