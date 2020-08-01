@@ -6,6 +6,7 @@
   <a href="https://gitpod.io/#https://github.com/andrewmcodes/bridgetown-plausible-starter" target="_blank">
     <img alt="Gitpod ready-to-code" src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" />
   </a>
+  <img alt="Deploy" src="https://github.com/andrewmcodes/bridgetown-plausible-starter/workflows/Deploy/badge.svg" />
 </p>
 
 > A simple starter Bridgetown template with Plausible analytics integrated via the [bridgetown-plausible-tag](https://github.com/andrewmcodes/bridgetown-plausible-tag) plugin.
