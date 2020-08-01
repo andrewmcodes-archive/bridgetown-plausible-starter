@@ -24,6 +24,10 @@ bundle install && yarn install
 yarn start
 ```
 
+## Demo
+
+[View Live Demo](https://andrewmcodes.github.io/bridgetown-plausible-starter/)
+
 ## Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/andrewmcodes/bridgetown-plausible-starter/issues).
