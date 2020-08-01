@@ -11,7 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build & Deploy to GitHub Pages
+        uses: andrewmcodes/bridgetown-gh-pages-action@debug
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          ruby_version: "2.7.0"
-        uses: andrewmcodes/bridgetown-gh-pages-action@debug
